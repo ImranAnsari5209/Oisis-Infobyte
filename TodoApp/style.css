@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.outerCont {
+    width: 600px;
+    border: 2px solid black;
+    background-color: #8B939C;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(58, 16, 16);
+    transition-duration: 2s;
+}
+
+.outerCont:hover {
+    transform: scale(1.5);
+
+    
+}
+
+
+.container {
+    margin  : 10px;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: #0E131F;
+    display: grid;
+    grid-template-columns: 200px 180px 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    
+}
+
+#todoText, #todoDate {
+    font-size: 15px;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #59546C;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+
+}
+
+.todoButton {
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.todoButton:hover {
+    background-color: green;
+    transform: scale(1.25);
+}
+
+.delButton {
+    background-color: darkred;
+    color: white;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.delButton:hover {
+    background-color: red;
+    transform: scale(1.25);
+
+}
+
+div {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(58, 16, 16);
+
+}
+
+
+
