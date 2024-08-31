@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.container {
+    border: 2px solid rgb(5, 4, 4);
+    height: 700px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(nature.jpg);   
+    background-size: cover;
+    box-shadow: 10px 10px 20px blue;
+}
+
+.calculator {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    background-color: grey;
+    box-shadow: 10px 10px 20px rgb(10, 104, 33);
+
+
+}
+
+#display {
+    margin: 10px;
+    padding: 15px;
+    height: 60px;
+    width: 350px;
+    font-size: 40px;
+    text-align: end;
+    background-color: lightgreen;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: lightblue;
+    font-weight: bolder;
+    font-size: large;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.btn-cont {
+    height: 78%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#equal {
+    width: 130px;
+}
+
+.btn-cont:hover {
+    background-color: black;
+}
+
+#off {
+    width: 130px;
+    background-color: rgb(196, 39, 39);
+    color: aliceblue;
+}
+
+#backspace {
+    width: 130px;
+    background-color: rgb(61, 59, 59);
+    color: aliceblue;
+}
+
+#clear {
+    background-color: green;
+    color: aliceblue;
+    transition-property: all;
+    transition-duration: 1.5s;
+    
+}
+
+#clear:hover {
+    background-color: darkgreen;
+}
+
+#add, #divide, #subtract, #multiply, #cubeRoot, #underRoot, #equal {
+    background-color: rgb(202, 202, 10);
+    
+}
