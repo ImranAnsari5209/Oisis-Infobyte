@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#caption {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+.about-kalam-sir {
+ 
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  height: 1100px;
+  width: 800px;
+  margin: 20px;
+  padding: 20px;
+ 
+  background-color: rgb(20, 156, 111);
+  box-shadow: 10px 10px 20px rgb(20, 156, 111);
+}
+
+.for-more {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  text-align: end;
+}
